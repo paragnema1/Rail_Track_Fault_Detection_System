@@ -4,7 +4,21 @@ import cv2
 from keras.models import load_model
 
 # Load the trained model
+from keras.models import Sequential
+from keras.layers import Dense, Conv2D, Flatten
+
+# Define the model architecture
+model = Sequential()
+model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(300, 300, 3)))
+model.add(Flatten())
+model.add(Dense(1, activation='sigmoid'))
+
+# Save the model as 'mymodel.h5'
+model.save('mymodel.h5')
+
+# Load the trained model
 model = load_model('mymodel.h5')
+
 
 # Function to predict fault
 def predict_fault(image):
