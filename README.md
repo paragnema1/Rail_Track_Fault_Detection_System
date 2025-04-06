@@ -1,6 +1,6 @@
 # Rail Track Fault Detection System
 
-![Upload Interface](https://raw.githubusercontent.com/paragnema1/Rail_Track_Fault_Detection_System/main/assets/upload_interface.png)  
+![Upload Interface](Webapp.png)  
 *Figure 1: User interface for uploading rail track images.*  
 
 ![Fault Detected](https://raw.githubusercontent.com/paragnema1/Rail_Track_Fault_Detection_System/main/assets/fault_detected.png)  
