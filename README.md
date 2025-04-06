@@ -1,5 +1,11 @@
 # Rail Track Fault Detection System
 
+![Upload Interface](https://raw.githubusercontent.com/paragnema1/Rail_Track_Fault_Detection_System/main/assets/upload_interface.png)  
+*Figure 1: User interface for uploading rail track images.*  
+
+![Fault Detected](https://raw.githubusercontent.com/paragnema1/Rail_Track_Fault_Detection_System/main/assets/fault_detected.png)  
+*Figure 2: Example of a detected fault in a rail track.*  
+
 ## Project Description
 This project aims to detect faults in rail tracks using advanced machine learning techniques. It provides real-time monitoring and visualization of detection results, ensuring safety and efficiency in rail transport.
 
